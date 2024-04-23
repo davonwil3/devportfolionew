@@ -67,7 +67,7 @@ h2{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 700px;
+    height: 1200px;
     text-align: center;
     margin-top: 45px;
   
@@ -93,7 +93,7 @@ h2{
     align-items: center;
     justify-content: center;
     width: 80%;
-    margin-top: 30px;
+    margin-top: 60px;
 }
 .project{
     width: 550px;
@@ -117,10 +117,10 @@ h2{
     background-position: center;
     border-radius: 10px;
 }
-.project-img-park{
+.project-img-blissy{
     width: 550px;
     height: 300px;
-    background-image: url(assets/josh-carter-_st8-JkLstI-unsplash.jpg);
+    background-image: url(assets/blissy.png);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
