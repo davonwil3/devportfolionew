@@ -207,3 +207,54 @@ h2{
     width: 250px;
     height: 200px;
 }
+
+@media only screen and (max-width: 1170px){
+    .row {
+        flex-direction: column;
+    }
+    #projects-section {
+        height: 1200px;
+    }
+    .project2{
+        margin-top: 80px;
+    }
+    #hero-section img{
+    
+        width: 470px;
+        height: 580px;
+    }
+    #hero-section h1{
+        color: white;
+        font-size: 70px;
+        font-weight: normal;
+        
+    }
+    #hero-section h2{
+        color: white;
+        font-size: 23px;
+        margin-top: 15px;
+        font-weight: normal;
+        
+    }
+}
+
+
+
+@media only screen and (max-width: 950px){
+    #hero-section img{
+        display: none;
+    }
+    #hero-section h1{
+        color: white;
+        font-size: 70px;
+        font-weight: normal;
+        text-align: center;
+    }
+    #hero-section h2{
+        color: white;
+        font-size: 23px;
+        margin-top: 15px;
+        font-weight: normal;
+        text-align: center;
+    }
+}
